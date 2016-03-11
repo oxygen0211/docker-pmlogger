@@ -8,5 +8,5 @@ RUN apt-get update &&\
     chmod 755 /usr/local/bin/start-pmlogger.sh
 
 
-ENTRYPOINT  /usr/local/bin/start-pmlogger.sh
-CMD [localhost, localhost]
+ENTRYPOINT  ["/usr/local/bin/start-pmlogger.sh"]
+CMD ["localhost", "localhost"]
