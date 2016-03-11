@@ -6,5 +6,5 @@ RUN apt-get update &&\
 
 ADD start-pmlogger.sh /usr/local/bin/start-pmlogger.sh
 
-ENTRYPOINT  [start-pmlogger.sh]
+ENTRYPOINT  [/usr/local/bin/start-pmlogger.sh]
 CMD [localhost, localhost]
