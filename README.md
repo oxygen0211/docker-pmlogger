@@ -5,3 +5,5 @@ e.g:
 docker run -d -v /var/log/pcp:/var/log/pcp oxygen0211/pmlogger localhost my-host
 
 for further info, see http://www.pcp.io/man/man1/pmlogger.1.html
+
+## Needs some more work before being production ready and is barely maintained. Feel free to submit fixes.
